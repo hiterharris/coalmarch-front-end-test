@@ -1,0 +1,128 @@
+// ----- VARIABLES -----
+$bright-cyan: #4ac1ff;
+$slate-grey: #666f77;
+$very-light-gray: #bbbbbb;
+
+// ----- MIXINS -----
+@mixin hero-title {
+    font-family: "OpenSans";
+    font-weight: 600;
+    font-size: 45px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 28px;
+}
+
+@mixin h1 {
+    font-family: "OpenSans";
+    font-size: 32px;
+    color: $slate-grey;
+    text-align: center;
+    line-height: 28px;
+    letter-spacing: 2.4px;
+}
+
+@mixin intro-text {
+    font-family: "OpenSans";
+    font-size: 19px;
+    color: $very-light-gray;
+    text-align: center;
+    line-height: 31px;
+    letter-spacing: 0.19px;
+}
+
+@mixin hero-body {
+    font-family: "OpenSans";
+    font-size: 19px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 28px;
+    letter-spacing: 0.48px;
+}
+
+@mixin cta-title {
+    font-family: "OpenSans";
+    font-size: 18px;
+    color: $slate-grey;
+    text-align: center;
+    line-height: 31px;
+    letter-spacing: 0.9px;
+}
+
+@mixin cta-body {
+    font-family: "OpenSans";
+    font-size: 16px;
+    color: $slate-grey;
+    text-align: center;
+    line-height: 31px;
+    letter-spacing: 0.16px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+// ----- NAV BAR -----
+.nav-left {
+    width: 33%;
+}
+
+.nav-title {
+    font-family: "Lato";
+    font-size: 32px;
+    font-weight: 400;
+    text-align: 'center';
+    line-height: 28px;
+    letter-spacing: 2.4px;
+    color: $slate-grey;
+    margin: 10%;
+    margin-left: 15%;
+}
+
+.nav-right {
+    display: flex;
+    width: 66%;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 3%;
+    margin-right: 12%;
+}
+
+.menu-text {
+    font-size: 19px;
+    font-weight: 200;
+    text-align: 'center';
+    line-height: 28px;
+    letter-spacing: 2.4px;
+    color: $slate-grey;
+    margin: 2%;
+}
+
+.contact-button {
+    width: 16%;
+    margin: 1%;
+    margin-bottom: 2%;
+    background-color: #4ac1ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: "Lato";
+    font-size: 19px;
+    font-weight: 400;
+    text-align: 'center';
+    line-height: 28px;
+    letter-spacing: 2.4px;
+}
+
+// ----- HERO SECTION -----
+.hero {
+    height: 1000px;
+    background-image: url('../images/hero-image.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
