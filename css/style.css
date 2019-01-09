@@ -146,7 +146,20 @@ nav {
 .contact-modal {
   height: 600px;
   width: 500px;
-  border: 1px solid black;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  background-color: white;
+  position: fixed;
+  top: 15%;
+  left: 33%;
+  z-index: 1;
+  margin: 0 auto; }
+
+.cta-modal {
+  height: 600px;
+  width: 500px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
   background-color: white;
   position: fixed;
   top: 15%;
@@ -174,7 +187,7 @@ nav {
 
 .contact-text {
   font-family: "Roboto", "Helvetica";
-  font-size: 28px;
+  font-size: 24px;
   color: grey;
   font-weight: 400;
   line-height: 0; }

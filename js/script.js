@@ -9,10 +9,7 @@ $(document).ready( () => {
 });
 
 $(document).ready( () => {
-    $(".cta-button").on( 'click', () => {
-        $(".contact-modal").show();
-    });
-    $(".close").on( 'click', () => {
+    $('.main-content, .hero-section').on( 'click', () => {
         $(".contact-modal").hide();
     });
 });
