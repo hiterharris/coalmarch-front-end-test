@@ -1,20 +1,18 @@
 nav {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin: 2% 8% 0.5% 8%; }
 
 .nav-left {
   width: 33%; }
 
 .nav-title {
   font-family: "Lato";
-  font-size: 32px;
-  font-weight: 400;
+  font-size: 24px;
   text-align: 'center';
   line-height: 28px;
   letter-spacing: 2.4px;
-  color: #666f77;
-  margin: 10%;
-  margin-left: 15%; }
+  color: #666f77; }
 
 .nav-right {
   display: flex;
@@ -23,9 +21,7 @@ nav {
 .nav-menu {
   display: flex;
   justify-content: flex-end;
-  width: 100%;
-  margin: 3%;
-  margin-right: 12%; }
+  width: 100%; }
 
 .menu-text {
   font-size: 19px;
@@ -48,7 +44,7 @@ nav {
   font-size: 19px;
   font-weight: 400;
   text-align: 'center';
-  line-height: 28px;
+  line-height: 42px;
   letter-spacing: 2.4px; }
 
 .hero-section {
@@ -62,7 +58,7 @@ nav {
   margin: 10%; }
 
 .hero-title {
-  font-family: "Lato";
+  font-family: "Roboto", "Helvetica";
   font-weight: 500;
   font-size: 45px;
   color: #ffffff;
@@ -70,7 +66,7 @@ nav {
   line-height: 28px; }
 
 .hero-body {
-  font-family: "Lato";
+  font-family: "Roboto", "Helvetica";
   font-size: 19px;
   font-weight: 300;
   color: #ffffff;
@@ -86,50 +82,61 @@ nav {
   border: none;
   border-radius: 5px;
   font-family: "Lato";
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 600;
   text-align: 'center';
-  line-height: 36px;
+  line-height: 42px;
   letter-spacing: 2.4px; }
 
 .main-content {
   margin-top: 5%; }
 
 .content-heading h1 {
-  font-family: "Lato";
+  font-family: "Roboto", "Helvetica";
   font-size: 18px;
   color: #666f77;
   text-align: center;
   line-height: 31px;
   letter-spacing: 0.9px;
-  font-size: 32px;
-  font-weight: 400; }
+  font-size: 38px;
+  font-weight: 300;
+  color: #676F78;
+  letter-spacing: 2px;
+  margin: 0%; }
 .content-heading h3 {
-  font-family: "Lato";
+  font-family: "Roboto", "Helvetica";
   font-size: 16px;
   color: #666f77;
   text-align: center;
   line-height: 31px;
   letter-spacing: 0.16px;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 300;
-  color: lightgrey; }
+  color: #DDDDDD;
+  margin: 0%; }
 
 .tile-section {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 2%; }
 
 .tile {
-  width: 14%;
-  border: 1px solid black;
-  margin: 2%;
-  padding: 0.75% 1%;
+  width: 18%;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  margin: 1.5%;
+  padding: 1%;
   text-align: center;
   color: grey;
-  font-weight: 300; }
+  font-family: "Roboto", "Helvetica";
+  color: #8A8F96; }
   .tile img {
     width: 50%; }
+  .tile h4 {
+    font-size: 22px;
+    font-weight: 350; }
   .tile p {
-    line-height: 30px; }
+    font-size: 20px;
+    line-height: 35px; }
 
 /*# sourceMappingURL=style.css.map */
