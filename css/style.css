@@ -40,22 +40,23 @@ nav {
   color: white;
   border: none;
   border-radius: 5px;
-  font-family: "Lato";
+  font-family: "Roboto";
   font-size: 19px;
-  font-weight: 400;
+  font-weight: 500;
   text-align: 'center';
   line-height: 42px;
   letter-spacing: 2.4px; }
 
 .hero-section {
   overflow: hidden;
-  background-image: url("../images/hero-image.jpg");
+  background-image: url("../images/dt-raleigh3.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 .hero-content {
   text-align: center;
-  margin: 10%; }
+  margin: 10% 10% 5% 10%;
+  padding-top: 2%; }
 
 .hero-title {
   font-family: "Roboto", "Helvetica";
@@ -68,6 +69,7 @@ nav {
 .hero-body {
   font-family: "Roboto", "Helvetica";
   font-size: 19px;
+  font-size: 24px;
   font-weight: 300;
   color: #ffffff;
   text-align: center;
@@ -76,14 +78,15 @@ nav {
 
 .cta-button {
   width: 18%;
-  margin: 2%;
+  margin: 5%;
+  padding-top: 5px;
   background-color: #4ac1ff;
   color: white;
   border: none;
   border-radius: 5px;
-  font-family: "Lato";
+  font-family: "Roboto";
   font-size: 19px;
-  font-weight: 600;
+  font-weight: 500;
   text-align: 'center';
   line-height: 42px;
   letter-spacing: 2.4px; }
@@ -93,26 +96,20 @@ nav {
 
 .content-heading h1 {
   font-family: "Roboto", "Helvetica";
-  font-size: 18px;
-  color: #666f77;
-  text-align: center;
-  line-height: 31px;
-  letter-spacing: 0.9px;
   font-size: 38px;
   font-weight: 300;
   color: #676F78;
+  text-align: center;
   letter-spacing: 2px;
   margin: 0%; }
 .content-heading h3 {
   font-family: "Roboto", "Helvetica";
-  font-size: 16px;
-  color: #666f77;
-  text-align: center;
-  line-height: 31px;
-  letter-spacing: 0.16px;
   font-size: 24px;
   font-weight: 300;
   color: #DDDDDD;
+  text-align: center;
+  line-height: 31px;
+  letter-spacing: 0.16px;
   margin: 0%; }
 
 .tile-section {
@@ -134,9 +131,12 @@ nav {
     width: 50%; }
   .tile h4 {
     font-size: 22px;
-    font-weight: 350; }
+    font-weight: 350;
+    margin-bottom: 0%; }
   .tile p {
     font-size: 20px;
     line-height: 35px; }
+  .tile .date {
+    font-size: 16px; }
 
 /*# sourceMappingURL=style.css.map */

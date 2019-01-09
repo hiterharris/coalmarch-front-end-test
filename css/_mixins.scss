@@ -1,0 +1,55 @@
+// --------------- MIXINS ---------------
+@mixin hero-title {
+    font-family: "Roboto", "Helvetica";    font-weight: 500;
+    font-size: 45px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 28px;
+}
+
+@mixin h1 {
+    font-family: "Roboto", "Helvetica";    font-size: 32px;
+    color: $slate-grey;
+    text-align: center;
+    line-height: 28px;
+    letter-spacing: 2.4px;
+}
+
+@mixin intro-text {
+    font-family: "Roboto", "Helvetica";    font-size: 19px;
+    color: $very-light-gray;
+    text-align: center;
+    line-height: 31px;
+    letter-spacing: 0.19px;
+}
+
+@mixin hero-body {
+    font-family: "Roboto", "Helvetica";    font-size: 19px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0px;
+    letter-spacing: 0.48px;
+}
+
+@mixin cta-title {
+    font-family: "Roboto", "Helvetica";
+    font-size:38px;
+    font-weight: 300;
+    color: #676F78;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0%;
+}
+
+@mixin cta-body {
+    font-family: "Roboto", "Helvetica";
+    font-size: 24px;
+    font-weight: 300;
+    color: #DDDDDD;
+    text-align: center;
+    line-height: 31px;
+    letter-spacing: 0.16px;
+    margin: 0%;
+}
