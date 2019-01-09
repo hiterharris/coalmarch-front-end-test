@@ -92,4 +92,44 @@ nav {
   line-height: 36px;
   letter-spacing: 2.4px; }
 
+.main-content {
+  margin-top: 5%; }
+
+.content-heading h1 {
+  font-family: "Lato";
+  font-size: 18px;
+  color: #666f77;
+  text-align: center;
+  line-height: 31px;
+  letter-spacing: 0.9px;
+  font-size: 32px;
+  font-weight: 400; }
+.content-heading h3 {
+  font-family: "Lato";
+  font-size: 16px;
+  color: #666f77;
+  text-align: center;
+  line-height: 31px;
+  letter-spacing: 0.16px;
+  font-size: 18px;
+  font-weight: 300;
+  color: lightgrey; }
+
+.tile-section {
+  display: flex;
+  justify-content: center; }
+
+.tile {
+  width: 14%;
+  border: 1px solid black;
+  margin: 2%;
+  padding: 0.75% 1%;
+  text-align: center;
+  color: grey;
+  font-weight: 300; }
+  .tile img {
+    width: 50%; }
+  .tile p {
+    line-height: 30px; }
+
 /*# sourceMappingURL=style.css.map */
